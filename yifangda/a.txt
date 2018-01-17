@@ -1,0 +1,111 @@
+        #(0)html文件名
+        item_list.add_value('product_url', response.url)
+        #(1)产品名称
+        if product_name:
+            item_list.add_value('product_name', product_name)
+        else:
+            item_list.add_value('product_name', 'None')
+        #(2)产品标签
+        if product_tag:
+            item_list.add_value('product_tag', product_tag)
+        else:
+            item_list.add_value('product_tag', 'None')
+        #(3)产品卖点
+        if product_point:
+            item_list.add_value('product_point', 'None')
+        else:
+            item_list.add_value('product_point', product_point)
+        #(4)招商区域
+        if investment_area:
+            item_list.add_value('investment_area', investment_area)
+        else:
+            item_list.add_value('investment_area', 'None')
+        #(5)产品类型
+        if product_category:
+            item_list.add_value('product_category', product_category)
+        else:
+            item_list.add_value('product_category', 'None')
+        #(6)批准文号
+        if approval_number:
+            item_list.add_value('approval_number', approval_number)
+        else:
+            item_list.add_value('approval_number', 'None')
+        #(7)生产单位
+        if manufacture_factory:
+            item_list.add_value('manufacture_factory', manufacture_factory)
+        else:
+            item_list.add_value('manufacture_factory', 'None')
+        #(8)包　　装
+        if product_pack:
+            item_list.add_value('product_pack', product_pack)
+        else:
+            item_list.add_value('product_pack', 'None')
+        #(9)规　　格
+        if product_specifications:
+            item_list.add_value('product_specifications', product_specifications)
+        else:
+            item_list.add_value('product_specifications', 'None')
+        #(10)成　　份
+        if product_ingredients:
+            item_list.add_value('product_ingredients', product_ingredients)
+        else:
+            item_list.add_value('product_ingredients', 'None')
+        #(11)用法用量
+        if product_usage:
+            item_list.add_value('product_usage', product_usage)
+        else:
+            item_list.add_value('product_usage', 'None')
+        #(12)产品用途或者功能主治
+        if product_function:
+            item_list.add_value('product_function', product_function)
+        else:
+            item_list.add_value('product_function', 'None')
+        #(13)电  话
+        if telphone:
+            item_list.add_value('telphone', telphone)
+        else:
+            item_list.add_value('telphone', 'None')
+        #(14)联系手机
+        if mobilephone:
+            item_list.add_value('mobilephone', mobilephone)
+        else:
+            item_list.add_value('mobilephone', 'None')
+        #(15)传真
+        if fax:
+            item_list.add_value('fax', fax)
+        else:
+            item_list.add_value('fax', 'None')
+        #(16)联系人
+        if contact_name01:
+            item_list.add_value('contact_name', contact_name01)
+        elif contact_name02:
+            contact_name = contact_name02
+            item_list.add_value('contact_name', contact_name02)
+        else:
+            item_list.add_value('contact_name', 'None')
+        #(17)联系QQ
+        if qq01:
+            item_list.add_value('qq', qq01)
+        elif qq02:
+            item_list.add_value('qq', qq02)
+        else:
+            item_list.add_value('qq', 'None')
+        #(18)联系微信
+        if wechat:
+            item_list.add_value('wechat', wechat)
+        else:
+            item_list.add_value('wechat', 'None')
+        #(19)地址
+        if address01:
+            item_list.add_value('address', address01)
+        elif address02:
+            item_list.add_value('address', address02)
+        else:
+            item_list.add_value('address', 'None')
+        #(20)公司邮箱
+        if mail01:
+            item_list.add_value('mail', mail01)
+        elif mail02:
+            item_list.add_value('mail', mail02)
+        else:
+            item_list.add_value('mail', 'None')
